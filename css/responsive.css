@@ -1,0 +1,60 @@
+/*max ate medium*/
+@media (min-width: 769px) {
+    #header .nav-link{
+        margin-left: 15px;  
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header .navbar-collapse {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 767.98px){
+    #servicos a.destaque .img-container{
+       height: 120px; 
+    }
+
+    #servicos a.destaque .img-container img{
+        max-height: 120px; 
+     }
+
+    #servicos .button-group{
+        font-size: 14px;
+    } 
+
+    #servicos h5{
+        font-size: medium;
+    }
+
+    #servicos span{
+        font-size: x-small;
+    }
+
+    #Designs-text{
+        font-size: 80%;
+    }  
+
+    #clientes .col-md-6{
+        margin-bottom: 0;
+        justify-content: space-between;
+        margin-left: 2%;
+    }
+
+    #redes-sociais{
+        padding-top: 30px;
+        justify-content: center;
+        margin-right: 3.5%;
+        margin-top: 10%x;
+    }
+
+    #redes-sociais .logo-final{
+        display: none;
+    }
+
+    #final h6{
+        font-size: 14px;
+    }
+}
